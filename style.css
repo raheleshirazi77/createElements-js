@@ -1,0 +1,282 @@
+#container {
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(77, 0, 149);
+    margin: 0 auto;
+    position: relative;
+}
+
+#boxPage {
+    width: 96%;
+    height: 27rem;
+    background-color: rgb(226, 194, 255);
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    position: relative;
+    top: 22px;
+    margin: 0 auto;
+
+}
+
+#elementBoxLeft {
+    width: 93%;
+    height: 26rem;
+    background-color: rgba(103, 2, 139, 0.369);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    left: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+#elementBoxRight {
+    width: 93%;
+    height: 26rem;
+    background-color: rgba(103, 2, 139, 0.369);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    top: 10px;
+    right: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* elements box left */
+#elementBoxOne {
+    width: 90%;
+    height: 9rem;
+    background-color: rgb(126, 0, 252);
+    border-radius: 27px 10px 27px 10px;
+    -webkit-border-radius: 27px 10px 27px 10px;
+    -moz-border-radius: 27px 10px 27px 10px;
+    -ms-border-radius: 27px 10px 27px 10px;
+    -o-border-radius: 27px 10px 27px 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 12px;
+    box-shadow: 2px 3px 5px rgb(60, 0, 82);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#elementBoxOne:hover{
+    background-color: rgb(167, 0, 238);
+    transition: all .9s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    -ms-transition: all .9s ease-in-out;
+    -o-transition: all .9s ease-in-out;
+}
+#elementBoxTwo:hover{
+    background-color: rgb(167, 0, 238);
+    transition: all .9s ease-in-out;
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    -ms-transition: all .9s ease-in-out;
+    -o-transition: all .9s ease-in-out;
+}
+
+#id_insta {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(246, 255, 0);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+#id_git {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(246, 255, 0);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    margin-top: 50px;
+
+}
+
+#elementBoxTwo {
+    width: 90%;
+    height: 9rem;
+    background-color: rgb(126, 0, 252);
+    border-radius: 10px 27px 10px 27px;
+    -webkit-border-radius: 10px 27px 10px 27px;
+    -moz-border-radius: 10px 27px 10px 27px;
+    -ms-border-radius: 10px 27px 10px 27px;
+    -o-border-radius: 10px 27px 10px 27px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 2px 3px 5px rgb(61, 1, 83);
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+/* elements box rigth */
+#elementOne {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+
+#elementTwo {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#elementThree {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#elementFore {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#elementFive {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#elementSix {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#elementSeven {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#elementEight {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(132, 8, 247);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#img_box {
+    width: 75px;
+    position: relative;
+    left: 19px;
+    top: 10px;
+
+    max-width: 200px; 
+}
+
+#img_box:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+}
