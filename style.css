@@ -70,7 +70,8 @@
     margin-bottom: 30px;
     margin-top: 30px;
 }
-#elementBoxOne:hover{
+
+#elementBoxOne:hover {
     background-color: rgb(167, 0, 238);
     transition: all .9s ease-in-out;
     -webkit-transition: all .9s ease-in-out;
@@ -78,7 +79,8 @@
     -ms-transition: all .9s ease-in-out;
     -o-transition: all .9s ease-in-out;
 }
-#elementBoxTwo:hover{
+
+#elementBoxTwo:hover {
     background-color: rgb(167, 0, 238);
     transition: all .9s ease-in-out;
     -webkit-transition: all .9s ease-in-out;
@@ -262,10 +264,8 @@
 #img_box {
     width: 75px;
     position: relative;
-    left: 19px;
     top: 10px;
-
-    max-width: 200px; 
+    left: 24px;
 }
 
 #img_box:hover {
